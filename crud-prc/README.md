@@ -78,3 +78,14 @@ Several databases support storing binary data such as images directly, including
 However, while it's technically possible to store images directly in databases, it's generally not recommended for large files like images due to performance, scalability, and maintenance concerns. Storing images in databases can lead to increased storage requirements, slower performance, and database bloat.
 
 Instead, a common practice is to store images in a file system or a cloud-based storage service (e.g., Amazon S3, Google Cloud Storage) and store references to these images (e.g., filenames, URLs) in the database. This approach allows for more efficient storage, faster retrieval, and easier management of images.
+
+For Creating you may need to check or refer datatypes but in laravel documentation specified as **Available Column Types**
+
+If I want to check the status or which are the following migrations to be done use **--pretend**
+
+```php
+
+   php artisan migrate:status
+   php artisan migrate --pretend
+
+```
