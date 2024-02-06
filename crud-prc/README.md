@@ -79,6 +79,8 @@ However, while it's technically possible to store images directly in databases, 
 
 Instead, a common practice is to store images in a file system or a cloud-based storage service (e.g., Amazon S3, Google Cloud Storage) and store references to these images (e.g., filenames, URLs) in the database. This approach allows for more efficient storage, faster retrieval, and easier management of images.
 
+## Laravel Migration
+
 For Creating you may need to check or refer datatypes but in laravel documentation specified as **Available Column Types**
 
 If I want to check the status or which are the following migrations to be done use **--pretend**
